@@ -2,6 +2,7 @@ package addition;
 // Welcome message in master
 // Initialize data and push it in Initial branch
 // Perform the if-else condition and push itElse branch
+// Happy Ending push in Ending branch
 public class ControllStatement {
 public static void main(String[] args) {
 	System.out.println("Welcome Message");
@@ -14,5 +15,7 @@ public static void main(String[] args) {
 	else {
 		System.out.println("Greater Value : "+value2);
 	}
+	
+	System.out.println("Happy Ending");
 }
 }
