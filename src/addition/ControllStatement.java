@@ -15,7 +15,27 @@ public static void main(String[] args) {
 	else {
 		System.out.println("Greater Value : "+value2);
 	}
-	
 	System.out.println("Happy Ending");
+	
+//	Switch Statement
+	
+	int value3 =20;
+	
+	switch(value3) {
+	case 10:
+		System.out.println("I am 10");
+//		break;
+	
+	case 20:
+		System.out.println("I am 20");
+//		break;
+	
+	case 30:
+		System.out.println("I am 30");
+//		break;
+		
+	default :
+		System.out.println("Condition not match");
+	}
 }
 }
